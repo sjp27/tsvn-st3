@@ -1,0 +1,12 @@
+[
+    { "id" : "tsvn-st3", "caption" : "TortoiseSVN", 
+      "children": [    
+        { "caption" : "Add", "command" : "tsvn_svnadd", "args": {"dirs": []} },
+        { "caption" : "Blame", "command" : "tsvn_blame" },
+        { "caption" : "Commit", "command" : "tsvn_commit", "args": {"dirs": []} },
+        { "caption" : "Diff", "command" : "tsvn_diff", "args": {"dirs": []} },
+        { "caption" : "Revert", "command" : "tsvn_revert", "args": {"dirs": []} },
+        { "caption" : "Show log", "command" : "tsvn_log", "args": {"dirs": []} },
+      ]
+   }
+]

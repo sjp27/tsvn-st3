@@ -1,0 +1,13 @@
+[
+    { "id" : "tsvn-st3", "caption" : "TortoiseSVN", 
+      "children": [
+        { "caption" : "Add", "command" : "tsvn_svnadd" },
+        { "caption" : "Blame", "command" : "tsvn_blame" },
+        { "caption" : "Commit...", "command" : "tsvn_commit" },
+        { "caption" : "Commit (repo)...", "command" : "tsvn_commit_repo" },
+        { "caption" : "Diff", "command" : "tsvn_diff" },
+        { "caption" : "Revert", "command" : "tsvn_revert" },
+        { "caption" : "Show log", "command" : "tsvn_log" },
+      ]
+    }
+]
