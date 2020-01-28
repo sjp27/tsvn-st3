@@ -12,9 +12,14 @@
                         "caption": "TortoiseSVN",
                         "children":
                         [
+                           {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/tsvn-st3/TortoiseSvnContext.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/tsvn-st3.sublime-settings"},
+                                "args": {"file": "${packages}/User/TortoiseSvnContext.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" }
